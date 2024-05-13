@@ -1,10 +1,9 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-
 package model;
 
-import screen.MenuScreen;
+import screen.FormMenu;
 
 /**
  *
@@ -13,7 +12,7 @@ import screen.MenuScreen;
 public class App {
 
     public static void main(String[] args) {
-        MenuScreen sudoku = new MenuScreen();
+        FormMenu sudoku = new FormMenu();
         sudoku.setVisible(true);
-        }
+    }
 }

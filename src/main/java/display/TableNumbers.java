@@ -33,10 +33,10 @@ public class TableNumbers extends JPanel {
     private Color txtForeground2;
     private Color txtBackground3;
     private Color txtForeground3;
-    
+
     private TableSudoku tableSudoku;
 
-    public TableNumbers() {   
+    public TableNumbers() {
         initiateComponent();
         tableSudoku = FormSudoku.tableSudoku;
     }
@@ -84,10 +84,9 @@ public class TableNumbers extends JPanel {
 
             txt.setBorder(BorderFactory.createLineBorder(panelBackground, 1));
             txt.setFont(new Font("Cambria", Font.BOLD, txtFontSize));
-            
+
             // Center align text
             txt.setHorizontalAlignment(JTextField.CENTER);
-
 
             //Assign numbers from 1 to 9
             txt.setText(String.valueOf(i + 1));
@@ -95,14 +94,12 @@ public class TableNumbers extends JPanel {
             //Add width after each txt is created at position
             x += txtWidth;
             if ((i + 1) % 3 == 0) {
-                x += txtMargin;                
+                x += txtMargin;
             }
             generateEventsTxt(txt);
         }
     }
 
-    
-    
     public void generateEventsTxt(JTextField txt) {
         MouseListener event = new MouseListener() {
             @Override
@@ -133,10 +130,8 @@ public class TableNumbers extends JPanel {
                 txt.setForeground(txtForeground1);
             }
         };
-        txt.addMouseListener(event);        
+        txt.addMouseListener(event);
     }
-    
-    
 
     public int getTxtWidth() {
         return txtWidth;
@@ -224,5 +219,5 @@ public class TableNumbers extends JPanel {
 
     public void setTxtForeground3(Color txtForeground3) {
         this.txtForeground3 = txtForeground3;
-    }   
+    }
 }

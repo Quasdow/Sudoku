@@ -40,5 +40,8 @@ Or open manually in Intellij
 I welcome contributions from the community! If you have any ideas, suggestions, or bug reports, please contact me via baduy3723@gmail.com 
 Let’s make this Sudoku game even better together!
 
+## Reference
+https://www.youtube.com/watch?v=IIb-kxfH4Lw
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.

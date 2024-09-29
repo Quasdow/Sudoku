@@ -40,6 +40,8 @@ Or open manually in Intellij
 I welcome contributions from the community! If you have any ideas, suggestions, or bug reports, please contact me via baduy3723@gmail.com 
 Let’s make this Sudoku game even better together!
 
+## Run on jdk 21
+
 ## Reference
 https://www.youtube.com/watch?v=IIb-kxfH4Lw
 
